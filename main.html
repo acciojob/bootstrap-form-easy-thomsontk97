@@ -21,7 +21,7 @@
         <h1 class="text-center">Intership Form</h1>
         <div class="row">
           <div class="col-4 mt-4">
-            <label for="first-name-input">First Name</label>
+            <label for="first-name-input" class="form-label">First Name</label>
             <input
               type="text"
               class="form-control"
@@ -32,7 +32,7 @@
             <div class="invalid-feedback">First name reqired!</div>
           </div>
           <div class="col-4 mt-4">
-            <label for="last-name-input">Last Name</label>
+            <label for="last-name-input" class="form-label">Last Name</label>
             <input
               type="text"
               class="form-control"
@@ -43,7 +43,7 @@
             <div class="invalid-feedback">Last name required!</div>
           </div>
           <div class="col-4 mt-4">
-            <label for="email-input">Email Address</label>
+            <label for="email-input" class="form-label">Email Address</label>
             <input
               type="email"
               class="form-control"
@@ -55,7 +55,7 @@
             <div class="invalid-feedback">Email required!</div>
           </div>
           <div class="col-6 mt-4">
-            <label for="college-input">College</label>
+            <label for="college-input" class="form-label">College</label>
             <input
               type="text"
               class="form-control"
@@ -66,7 +66,9 @@
             <div class="invalid-feedback">Please provie a valid college!</div>
           </div>
           <div class="col-3 mt-4">
-            <label for="grad-year-select">Graduation Year</label>
+            <label for="grad-year-select" class="form-label"
+              >Graduation Year</label
+            >
             <select id="grad-year-select" class="form-select" required>
               <option value="">Choose...</option>
               <option value="2020">2020</option>
@@ -79,7 +81,7 @@
             </div>
           </div>
           <div class="col-3 mt-4">
-            <label for="roll-no-input">Roll No.</label>
+            <label for="roll-no-input" class="form-label">Roll No.</label>
             <input
               type="text"
               class="form-control"
@@ -94,7 +96,10 @@
               id="conditions-checkbox"
               class="form-check-input"
               required
-            /><label for="conditions-checkbox" class="form-check-label d-inline">
+            /><label
+              for="conditions-checkbox"
+              class="form-check-label d-inline"
+            >
               Agree to terms and conditions
             </label>
             <div class="invalid-feedback">You must agree before submitting</div>
